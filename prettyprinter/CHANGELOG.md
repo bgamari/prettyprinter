@@ -1,3 +1,8 @@
+# 1.2.0.0 (Next release)
+
+- Add collapsible newlines via `hardlineCollapse`. This changes the `Doc` type,
+  because the `Line` constructor now takes an argument.
+
 # 1.1.1
 
 - Add `panicPeekedEmpty` and `panicPoppedEmpty` to the panic module
